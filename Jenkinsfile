@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
         app.inside {
-            sudo docker build . -t franitel/nodeapp
+            sudo docker build franitel/nodeapp .
         {
     }
 
