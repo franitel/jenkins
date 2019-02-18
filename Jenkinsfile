@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
        
-          sh "sudo docker build franitel/nodeapp ."
+          sh "sudo docker build . -t franitel/nodeapp"
     }
 
     stage('Test image') {
