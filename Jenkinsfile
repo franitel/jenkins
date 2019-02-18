@@ -15,7 +15,7 @@ node {
 
     stage('Test image') {
         
-         sh "echo "Tests passed"
+         sh "echo Tests passed"
     }
 
     stage('Push image') {
